@@ -8,6 +8,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "more-itertools" },
     { name = "networkx", extra = ["default"] },
+    { name = "pillow" },
     { name = "sympy" },
 ]
 
@@ -22,6 +23,7 @@ dev = [
 requires-dist = [
     { name = "more-itertools", specifier = ">=10.5.0" },
     { name = "networkx", extras = ["default"], specifier = ">=3.4.2" },
+    { name = "pillow", specifier = ">=11.0.0" },
     { name = "sympy", specifier = ">=1.13.3" },
 ]
 
